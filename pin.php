@@ -1,5 +1,13 @@
-<?php
-require __DIR__ . '/vendor/autoload.php';
+<?php 
+require('vendor/autoload.php'); 
+require_once("kampang/autoload.php"); 
+
+// If account is public you can query Instagram without auth
+$user = $_POST['username'];
+$jumlah = $_POST['jumlah'];
+$email = $_POST['email'];
+$userp = $_POST['usernamep'];
+$pass = $_POST['password'];
 
 use seregazhuk\PinterestBot\Factories\PinterestBot;
 
