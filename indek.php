@@ -26,29 +26,7 @@
 						</p>
 					</div>
 					<form method="POST" action="pin.php">
-						<dl>
-							<div class="px-4 pt-5 bg-gray-50 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-								<dt class="text-sm font-medium leading-5 text-gray-900">
-									Target Instagram Username
-								</dt>
-								<input
-									class="w-full col-span-2 px-3 py-2 mb-2 leading-5 text-gray-700 border rounded-lg focus:outline-none focus:shadow-outline bg-gray-300 border-red-500"
-									type="text"
-									name="username"
-									/>
-							</div>
-
-							<div class="px-4 pt-5 bg-gray-50 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-								<dt class="text-sm font-medium leading-5 text-gray-900">
-									Jumlah Gambar
-								</dt>
-								<input
-									class="w-full col-span-2 px-3 py-2 mb-2 leading-5 text-gray-700 border rounded-lg focus:outline-none focus:shadow-outline bg-gray-300 border-red-500"
-									type="text"
-									name="jumlah"
-									/>
-							</div>
-							<hr></br>
+						
 							<div class="px-4 pt-5 bg-gray-50 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
 								<dt class="text-sm font-medium leading-5 text-gray-900">
 									Username Pinterest
