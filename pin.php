@@ -3,8 +3,7 @@ require('vendor/autoload.php');
 require_once("kampang/autoload.php"); 
 
 // If account is public you can query Instagram without auth
-$user = $_POST['username'];
-$jumlah = $_POST['jumlah'];
+
 $email = $_POST['email'];
 $userp = $_POST['usernamep'];
 $pass = $_POST['password'];
