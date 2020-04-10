@@ -15,7 +15,8 @@ $blogUrl = 'http://google.com';
 $keywords = ['cats', 'kittens', 'funny cats', 'cat pictures', 'cats art'];
 
 $bot = PinterestBot::create();
-$bot->auth->login('mypinterestlogin', 'mypinterestpassword');
+// Login
+$bot->auth->login($email, $pass);
 
 if ($bot->user->isBanned()) {
     echo "Account has been banned!\n";
@@ -32,6 +33,7 @@ if(empty($images)) {
     echo "No images for posting\n";
     die();
 }
+?>
 
 $image = $images[0];
 
